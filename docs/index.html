@@ -5,20 +5,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>بودجه خانوار به فرمت sqlite</title>
-  <!-- <link href="https://raw.githubusercontent.com/ghodsizadeh/Household-Survey-Data-Iran/main/https://cdn.jsdelivr.net/npm/daisyui@4.4.4/dist/full.min.css" rel="stylesheet" type="text/css" /> -->
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
-</head>
+  <!-- add font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
 
 
 <body class="bg-gray-100" style="font-family: Vazir;" dir="rtl">
   <header class="bg-blue-800 py-4">
     <div class="container mx-auto px-4">
-      <h1 class="text-white text-2xl font-bold">بودجه خانوار ۱۳۷۵-۱۴۰۱</h1>
+      <h1 class="text-white text-2xl font-bold">بودجه خانوار ۱۳۷۵-۱۴۰۱ با فرمت sqlite3</h1>
     </div>
   </header>
 
   <main class="container mx-auto px-4 py-8">
+    <div class="bg-white p-3 my-3 rounded-md shadow ">
+        <p>
+            در این صفحه می‌توانید اطلاعات مربوط پرشبه داده‌های  خام طرح هزینه و درامد دسترسی داشته باشید.
+            <br/>
+            با کمک این فرمت می‌توانید به راحتی با همه سرویس‌های که به دیتابیس‌های رایج متصل می‌شوند در تمامی سیستم‌عامل‌ها و حتی در سرویس‌های آنلاین مثل 
+            Google Colab از این داده‌ها استفاده کنید.
+            </p>
+            <p>
+                برای دسترسی به پرسشنامه‌ها می توانید به 
+                <a href="https://www.amar.org.ir/%D8%AF%D8%A7%D8%AF%D9%87%D9%87%D8%A7-%D9%88-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A2%D9%85%D8%A7%D8%B1%DB%8C/%D9%87%D8%B2%DB%8C%D9%86%D9%87-%D9%88-%D8%AF%D8%B1%D8%A7%D9%85%D8%AF-%D8%AE%D8%A7%D9%86%D9%88%D8%A7%D8%B1/%D9%87%D8%B2%DB%8C%D9%86%D9%87-%D9%88-%D8%AF%D8%B1%D8%A7%D9%85%D8%AF-%DA%A9%D9%84-%DA%A9%D8%B4%D9%88%D8%B1#103181018---"
+                    class="text-blue-900 hover:text-blue-500"
+                >
+                    سایت سازمان آمار ایران
+                </a>
+                مراجعه کنید.
+        </p>
+    </div>
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
       <a href="https://raw.githubusercontent.com/ghodsizadeh/Household-Survey-Data-Iran/main/75.sqlite3.zip" class="bg-white hover:bg-gray-100 p-4 rounded-md shadow"> بودجه سال ۱۳۷۵</a>
       <a href="https://raw.githubusercontent.com/ghodsizadeh/Household-Survey-Data-Iran/main/76.sqlite3.zip" class="bg-white hover:bg-gray-100 p-4 rounded-md shadow"> بودجه سال ۱۳۷۶</a>
@@ -52,17 +69,19 @@
 
   <footer class="bg-gray-200 py-4">
     <div class="container mx-auto px-4">
-      <p class="text-white text-center">
-        توسعه با افتخار توسط <a class="text-blue-900 hover:text-blue-500" 
+      <p class="text-gray-900 text-center">
+        گردآوری با افتخار توسط <a class="text-blue-900 hover:text-blue-500" 
          href="https://github.com/ghodsizadeh">مهدی قدسی‌زاده</a>
+         <a href="https://x.com/mghodsizadeh" class="text-blue-900 hover:text-blue-500">
+            <i class="fa fab fa-twitter"></i>
+        </a>
         </p>
-        <p class="text-white text-center">
+        <p class="text-gray-900 text-center">
             <a class="text-blue-900 hover:text-blue-500"
                 href="https://github.com/ghodsizadeh/Household-Survey-Data-Iran"
-                target="_blank"
                 rel="noopener noreferrer">
                 مخزن گیت‌هاب
-                <i class="fab fa-github"></i>
+                <i class="fa fab fa-github"></i>
             </a>
         
     </div>
